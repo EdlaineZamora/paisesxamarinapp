@@ -19,7 +19,6 @@ namespace pais.ViewModel
 		public CountryViewModel()
 		{
 			Countrys = new ObservableCollection<Model.Country>();
-			Countrys.Add(new Model.Country { Id = 1, Name = "Brazil", Latitude = 12333, Longitude = 21333 });
 
 			InitializeCommand = new Xamarin.Forms.Command(async () =>
 			{

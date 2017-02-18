@@ -4,7 +4,7 @@
 		x:Class="pais.CountryView">
 
 	<StackLayout Padding="20" Spacing="10">
-		<Button Text="Buscar" Command="{Binding InitializeCommand}"/>
+		<Button Text="Listar" Command="{Binding InitializeCommand}"/>
 
 		<ListView ItemsSource="{Binding Countrys}" x:Name="countrysList">
 			<ListView.ItemTemplate>
