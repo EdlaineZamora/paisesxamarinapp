@@ -23,16 +23,16 @@ namespace pais.Model
 				this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Name)));
 			}}
 
-		private float latitude;
-		public float Latitude { get { return latitude; }
+		private double latitude;
+		public double Latitude { get { return latitude; }
 			set
 			{
 				latitude = value;
 				this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Latitude)));
 			}}
 
-		private float longitude;
-		public float Longitude { get { return longitude; } 
+		private double longitude;
+		public double Longitude { get { return longitude; } 
 			set {
 				longitude = value;
 				this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Longitude)));

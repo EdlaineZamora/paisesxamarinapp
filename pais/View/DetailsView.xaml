@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pais.DetailsView">
-	<ContentPage.Content>
-		<Label x:Name="Nome"></Label>
-	</ContentPage.Content>
+	<StackLayout >
+		<Label Text="Nome:" ></Label>
+		<Editor x:Name="Nome"></Editor>
+		<Label Text="Longitude:"></Label>
+		<Editor x:Name="Longitude"></Editor>
+		<Label Text="Latitude:"></Label>
+		<Editor x:Name="Latitude"></Editor>
+	</StackLayout >
 </ContentPage>

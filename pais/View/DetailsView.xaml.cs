@@ -11,6 +11,8 @@ namespace pais
 		{
 			InitializeComponent();
 			this.Nome.Text = country.Name;
+			this.Longitude.Text = country.Longitude.ToString();
+			this.Latitude.Text = country.Latitude.ToString();
 		}
 	}
 }
